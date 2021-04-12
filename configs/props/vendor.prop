@@ -118,9 +118,6 @@ persist.vendor.camera.privapp.list=com.android.camera
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
-# Data modules
-ro.telephony.iwlan_operation_mode=legacy
-
 # Dex2oat
 pm.dexopt.boot=verify
 pm.dexopt.first-boot=verify
