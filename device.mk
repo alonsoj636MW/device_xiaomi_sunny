@@ -266,6 +266,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# Inherit several Android Go configurations
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
@@ -452,9 +457,6 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
     hardware/qcom-caf/wlan
-
-# Speed profile services and wifi-service to reduce RAM and storage
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
 # Task Profiles
 PRODUCT_COPY_FILES += \
