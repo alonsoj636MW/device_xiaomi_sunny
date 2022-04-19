@@ -677,4 +677,7 @@
         <item>com.exteragram.messenger</item>
     </string-array>
 
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
+
 </resources>
