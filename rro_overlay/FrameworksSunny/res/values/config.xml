@@ -660,4 +660,10 @@
 
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Redmi/sunny_global/sunny:12/RKQ1.210614.002/V14.0.8.0.SKGMIXM:user/release-keys</string>
+
+    <!-- Flag indicating whether the surface flinger has limited alpha compositing functionality in hardware -->
+    <bool name="config_sf_limitedAlpha">true</bool>
+
+    <!-- The max scale for the wallpaper when it's zoomed in -->
+    <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
 </resources>
