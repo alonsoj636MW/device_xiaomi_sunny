@@ -677,7 +677,4 @@
         <item>com.exteragram.messenger</item>
     </string-array>
 
-    <!-- Boost Framework -->
-    <bool name="config_supportsBoostFramework">true</bool>
-
 </resources>
