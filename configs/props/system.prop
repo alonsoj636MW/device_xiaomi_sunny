@@ -4,9 +4,6 @@ vendor.bluetooth.soc=cherokee
 # Blur
 ro.surface_flinger.supports_background_blur=0
 
-# Charger
-ro.charger.enable_suspend=true
-
 # Disable Skia Tracing by default
 debug.hwui.skia_atrace_enabled=false
 
