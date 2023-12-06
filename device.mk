@@ -445,7 +445,7 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge
 
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.1-service.sunny-multihal
+    android.hardware.sensors-service.sunny-multihal
 
 PRODUCT_PACKAGES += \
     sensors.xiaomi
