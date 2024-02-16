@@ -543,8 +543,7 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.system.qti \
     libnl \
     libqdMetaData \
-    libqdMetaData.system \
-    libwfdaac_vendor
+    libqdMetaData.system
 
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
