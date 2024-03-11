@@ -29,5 +29,8 @@ telephony.lteOnCdmaDevice=1
 # Skia
 debug.hwui.skia_tracing_enabled=false
 
+# System Server
+persist.arm64.memtag.system_server=off
+
 # WiFi
 wifi.interface=wlan0
