@@ -22,5 +22,8 @@ ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 persist.sys.fflag.override.settings_provider_model=false
 
+# System Server
+persist.arm64.memtag.system_server=off
+
 # WiFi
 wifi.interface=wlan0
