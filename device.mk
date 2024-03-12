@@ -363,17 +363,17 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureSunny \
     CarrierConfigSunny \
     DisableQTIAppsSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
-    OpenDeltaSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
     WifiSunny
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Perf
 PRODUCT_COPY_FILES += \

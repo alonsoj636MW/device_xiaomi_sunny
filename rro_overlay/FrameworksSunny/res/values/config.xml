@@ -27,10 +27,10 @@
     <bool name="config_dozePulsePickup">true</bool>
 
     <!-- Type of the double tap sensor. Empty if double tap is not supported. -->
-    <string name="config_dozeDoubleTapSensorType" translatable="false">org.yaap.sensor.double_tap</string>
+    <string name="config_dozeDoubleTapSensorType" translatable="false">org.lineageos.sensor.double_tap</string>
 
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
-    <string name="config_dozeTapSensorType" translatable="false">org.yaap.sensor.single_tap</string>
+    <string name="config_dozeTapSensorType" translatable="false">org.lineageos.sensor.single_tap</string>
 
     <!-- Auto-brightness sensor type string -->
     <string name="config_displayLightSensorType">"android.sensor.light"</string>
@@ -657,25 +657,6 @@
 
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">5</integer>
-
-    <!-- The list of package IDs that are allowed to use aux cameras.
-         NOTE: If this list is empty then all apps will be able to use aux cameras. -->
-    <string-array name="config_cameraAuxPackageAllowList" translatable="false">
-        <item>com.android.camera</item>
-        <item>org.codeaurora.snapcam</item>
-        <item>org.lineageos.aperture</item>
-        <item>org.lineageos.aperture.dev</item>
-    </string-array>
-
-    <!-- The list of package IDs that are not allowed to use aux cameras. -->
-    <string-array name="config_cameraAuxPackageBlackList" translatable="false">
-        <item>org.telegram.messenger</item>
-        <item>org.thunderdog.challegram</item>
-        <item>tw.nekomimi.nekogram</item>
-        <item>it.owlgram.android</item>
-        <item>org.telegram.messenger.web</item>
-        <item>com.exteragram.messenger</item>
-    </string-array>
 
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">1</item>
