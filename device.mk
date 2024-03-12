@@ -361,17 +361,22 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureSunny \
     CarrierConfigSunny \
     DisableQTIAppsSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
-    OpenDeltaSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
     WifiSunny
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # Perf
 PRODUCT_COPY_FILES += \
