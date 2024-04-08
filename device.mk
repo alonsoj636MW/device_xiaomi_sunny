@@ -13,6 +13,9 @@ $(call inherit-product, vendor/xiaomi/sunny/sunny-vendor.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# GApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 # A/B
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
