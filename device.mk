@@ -136,6 +136,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor
 
 PRODUCT_PACKAGES += \
+    libcamera_provider_shim \
     libpiex_shim \
     camxoverridesettings.txt
 
