@@ -111,7 +111,6 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=cherokee
 
-
 # Camera
 camera.disable_zsl_mode=1
 
@@ -139,6 +138,11 @@ persist.vendor.dpmhalservice.enable=1
 # Display
 debug.egl.hw=0
 debug.mdpcomp.logs=0
+debug.sf.enable_hwc_vds=0
+debug.sf.enable_transaction_tracing=false
+debug.sf.hw=0
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.treat_170m_as_sRGB=1
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
 debug.sf.late.app.duration=16600000
@@ -146,11 +150,6 @@ debug.sf.early.sf.duration=16600000
 debug.sf.early.app.duration=16600000
 debug.sf.earlyGl.sf.duration=16600000
 debug.sf.earlyGl.app.duration=16600000
-debug.sf.enable_hwc_vds=0
-debug.sf.hw=0
-debug.sf.enable_transaction_tracing=false
-debug.sf.predict_hwc_composition_strategy=0
-debug.sf.treat_170m_as_sRGB=1
 ro.surface_flinger.protected_contents=true
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.has_wide_color_display=true
@@ -171,8 +170,8 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
-vendor.gralloc.disable_ubwc=0
 vendor.display.override_doze_mode=1
+vendor.gralloc.disable_ubwc=0
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
