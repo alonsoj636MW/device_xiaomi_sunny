@@ -211,6 +211,9 @@ PRODUCT_PACKAGES += \
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# EPPE
+TARGET_DISABLE_EPPE := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
