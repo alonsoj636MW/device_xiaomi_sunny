@@ -280,7 +280,6 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureSunny \
     CarrierConfigSunny \
     DisableQTIAppsSunny \
     DisplayFeaturesSunny \
@@ -289,9 +288,9 @@ PRODUCT_PACKAGES += \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
-    WifiSunny \
-    SettingsOverlayM2101K7AG \
-    SettingsOverlayM2101K7AI
+    WifiSunny
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Partitions
 PRODUCT_PACKAGES += \
