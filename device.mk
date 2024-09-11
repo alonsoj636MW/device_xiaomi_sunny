@@ -443,7 +443,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.sunny-multihal
 
 PRODUCT_PACKAGES += \
-    sensors.xiaomi
+    sensors.xiaomi.v2
 
 # Sensors configs
 PRODUCT_COPY_FILES += \
