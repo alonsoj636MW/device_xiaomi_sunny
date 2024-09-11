@@ -426,8 +426,8 @@ vendor/lib64/camera/components/libmmcamera_cac3.so
 
 # Camera-Megvii
 vendor/etc/camera/megviifacepp_0_5_2_model:vendor/etc/camera/facedetectpp_0_5_2_model
-vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so
-vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so
+vendor/lib64/libMegviiFacepp-0.5.2.so:vendor/lib64/libFaceDetectpp-0.5.2.so;FIX_SONAME
+vendor/lib64/libmegface.so:vendor/lib64/libfacedet.so;FIX_SONAME
 
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
@@ -436,7 +436,7 @@ vendor/firmware/CAMERA_ICP.elf
 vendor/bin/hvdcp_opti
 
 # Consumer IR
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so;FIX_SONAME
 
 # CNE
 vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink
@@ -587,7 +587,7 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.default.so
+vendor/lib64/hw/fingerprint.fpc.default.so:vendor/lib64/hw/fingerprint.default.so;FIX_SONAME
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # FM
