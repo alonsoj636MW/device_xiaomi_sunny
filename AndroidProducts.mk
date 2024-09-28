@@ -6,4 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_sunny.mk
-	
