@@ -121,6 +121,12 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 # Data modules
 ro.telephony.iwlan_operation_mode=legacy
 
+# Dex2oat
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
+
 # DPM
 persist.vendor.dpm.feature=1
 persist.vendor.dpm.nsrm.bkg.evt=3955
