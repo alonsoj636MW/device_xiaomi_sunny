@@ -245,6 +245,7 @@ PRODUCT_PACKAGES += \
 LOCAL_KERNEL := device/xiaomi/sunny-kernel/Image
 PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
+PRODUCT_ENABLE_UFFD_GC := true
 
 # HIDL
 PRODUCT_PACKAGES += \
