@@ -290,10 +290,6 @@ LOCAL_KERNEL := device/xiaomi/sunny-kernel/Image
 PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.light-service.sunny
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
