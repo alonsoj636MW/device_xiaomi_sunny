@@ -56,9 +56,6 @@ TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
 TARGET_OTA_ASSERT_DEVICE := mojito|sunny|mojito_global|sunny_global
 
-# Camera
-TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.sunny
-
 # Display
 TARGET_SCREEN_DENSITY := 440
 
