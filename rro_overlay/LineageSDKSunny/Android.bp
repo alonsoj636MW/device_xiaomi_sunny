@@ -1,4 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsOverlayM2101K7AI",
+    name: "LineageSDKSunny",
     product_specific: true,
+    sdk_version: "current"
 }

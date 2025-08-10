@@ -284,13 +284,12 @@ PRODUCT_PACKAGES += \
     CarrierConfigSunny \
     DisplayFeaturesSunny \
     FrameworksSunny \
+    LineageSDKSunny \
     SettingsProviderSunny \
     SettingsSunny \
     SystemUISunny \
     TelephonySunny \
-    WifiSunny \
-    SettingsOverlayM2101K7AG \
-    SettingsOverlayM2101K7AI
+    WifiSunny
 
 # Partitions
 PRODUCT_PACKAGES += \
