@@ -10,9 +10,10 @@ $(call inherit-product, vendor/xiaomi/sunny/sunny-vendor.mk)
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Include GApps and MicroG setup
+# Include custom additions
 ifeq ($(WITH_GAPPS),true)
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicacamera-vendor.mk)
 else
 $(call inherit-product, vendor/microg/microg.mk)
 endif

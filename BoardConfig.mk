@@ -10,6 +10,9 @@ KERNEL_PATH := device/xiaomi/sunny-kernel
 # Inherit from proprietary files
 include vendor/xiaomi/sunny/BoardConfigVendor.mk
 
+# Inherit from proprietary files for Leica Camera
+include vendor/xiaomi/mojito-leicacamera/BoardConfigVendor.mk
+
 # A/B
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true

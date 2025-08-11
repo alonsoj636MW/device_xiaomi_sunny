@@ -1,6 +1,9 @@
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 
+# Camera
+persist.sys.cam.skip_detach_image=true
+
 # Display
 debug.force_no_blanking=true
 
